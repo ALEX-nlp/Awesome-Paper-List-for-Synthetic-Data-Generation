@@ -3,23 +3,23 @@ This repository aims to collect recent interested papers related to synthetic da
 
 We divide synthetic data generation method into categories:
 
-[**· Augmentation**](##Augmentation): 
+· [**Augmentation**](##Augmentation): 
 
-[**· Iterative-Evolution**](##Iterative-Evolution): Method that contains iterative refinement of data or model.
+· [**Iterative-Evolution**](##Iterative-Evolution): Method that contains iterative refinement of data or model.
 
-[**· Distillation**](##Distillation): Method that distill intrinsic knowledge from models, may contain prompting/decoding/sampling strategy et.al. 
+· [**Distillation**](##Distillation): Method that distill intrinsic knowledge from models, may contain prompting/decoding/sampling strategy et.al. 
 
-[**· External-Based**](##External-Based): Method that generate basing on external structure (tree/graph) or exterior searching.
+· [**External-Based**](##External-Based): Method that generate basing on external structure (tree/graph) or exterior searching.
 
-[**· Environment**](##Enviroment): Method that contains curation and interaction with an external environment where certain approach of verification internally exists. e.g. code interpreter, bash, game .et.al.
+· [**Environment**](##Enviroment): Method that contains curation and interaction with an external environment where certain approach of verification internally exists. e.g. code interpreter, bash, game .et.al.
 
-[**· Hybrid**](##Hybrid): Mixture of above.
+· [**Hybrid**](##Hybrid): Mixture of above.
 
 based on their algorithm. 
 
 Other aspects includes:
 
-[**· Filtering**](##Filtering)
+· [**Filtering**](##Filtering)
 
 | [[HOME PAGE]]() [[PDF]]()
 
@@ -28,9 +28,11 @@ Other aspects includes:
 
 ## Interested Survey && Analysis
 
-[**2024 Jul COLM**] [**Best Practices and Lessons Learned on Synthetic Data**](https://openreview.net/pdf?id=OJaWBhh61C), *Ruibo Liu, Jerry Wei, Fangyu Liu, Chenglei Si, Yanzhe Zhang, Jinmeng Rao, Steven Zheng, Daiyi Peng, Diyi Yang, Denny Zhou, Andrew M. Dai* | [[HOME PAGE]](https://openreview.net/forum?id=OJaWBhh61C)
+[**2024 Jul COLM**] [**Best Practices and Lessons Learned on Synthetic Data**](https://openreview.net/pdf?id=OJaWBhh61C), *Ruibo Liu, Jerry Wei, Fangyu Liu, Chenglei Si, Yanzhe Zhang, Jinmeng Rao, Steven Zheng, Daiyi Peng, Diyi Yang, Denny Zhou, Andrew M. Dai* 
+[[HOME PAGE]](https://openreview.net/forum?id=OJaWBhh61C)
 
-[**2024 Dec Arxiv**] [**Surveying the Effects of Quality, Diversity, and Complexity in Synthetic Data From Large Language Models**](https://arxiv.org/pdf/2412.02980v2), *Alex Havrilla, Andrew Dai, Laura O'Mahony, Koen Oostermeijer, Vera Zisler, Alon Albalak, Fabrizio Milo, Sharath Chandra Raparthy, Kanishk Gandhi, Baber Abbasi, Duy Phung, Maia Iyer, Dakota Mahan, Chase Blagden, Srishti Gureja, Mohammed Hamdy, Wen-Ding Li, Giovanni Paolini, Pawan Sasanka Ammanamanchi, Elliot Meyerson* | [[HOME PAGE]](https://arxiv.org/abs/2412.02980v2) 
+[**2024 Dec Arxiv**] [**Surveying the Effects of Quality, Diversity, and Complexity in Synthetic Data From Large Language Models**](https://arxiv.org/pdf/2412.02980v2), *Alex Havrilla, Andrew Dai, Laura O'Mahony, Koen Oostermeijer, Vera Zisler, Alon Albalak, Fabrizio Milo, Sharath Chandra Raparthy, Kanishk Gandhi, Baber Abbasi, Duy Phung, Maia Iyer, Dakota Mahan, Chase Blagden, Srishti Gureja, Mohammed Hamdy, Wen-Ding Li, Giovanni Paolini, Pawan Sasanka Ammanamanchi, Elliot Meyerson* 
+[[HOME PAGE]](https://arxiv.org/abs/2412.02980v2) 
 
 
 
@@ -57,7 +59,7 @@ Other aspects includes:
 
 [**2024 ICLR poster**] [**RLCD: Reinforcement Learning from Contrastive Distillation for Language Model Alignment**](https://arxiv.org/pdf/2307.12950), *Kevin Yang, Dan Klein, Asli Celikyilmaz, Nanyun (Violet) Peng, Yuandong Tian* | [[github]](https://github.com/facebookresearch/RLCD) [[HOME PAGE]](https://proceedings.iclr.cc/paper_files/paper/2024/hash/5bd09a559a8c8e230697107b0f353d39-Abstract-Conference.html)
 
-[**2024 ICLR poster**] [**West-of-N: Synthetic Preferences for Self-Improving Reward Models**](https://arxiv.org/pdf/2401.12086), *Alizée Pace, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn* |[[HOME PAGE]](https://iclr.cc/virtual/2024/22444)
+[**2024 ICLR poster**] [**West-of-N: Synthetic Preferences for Self-Improving Reward Models**](https://arxiv.org/pdf/2401.12086), *Alizée Pace, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn* | [[HOME PAGE]](https://iclr.cc/virtual/2024/22444)
 
 [**2023 ACL**] [**Self-Instruct: Aligning Language Models with Self-Generated Instructions**](https://aclanthology.org/2023.acl-long.754.pdf), *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi* | [[github]](https://github.com/yizhongw/self-instruct) [[HOME PAGE]](https://aclanthology.org/2023.acl-long.754/)
 
@@ -68,7 +70,7 @@ Other aspects includes:
 
 ## External-Based
 
-[**2024 NeurIPS**] [**Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing**](https://proceedings.neurips.cc/paper_files/paper/2024/file/5e5853f35164e434015716a8c2a66543-Paper-Conference.pdf), *Ye Tian, Baolin Peng, Linfeng Song, Lifeng Jin, Dian Yu, Haitao Mi, Dong Yu* | [[HOME PAGE]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5e5853f35164e434015716a8c2a66543-Abstract-Conference.html)
+[**2024 NeurIPS**] [**Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing**](https://proceedings.neurips.cc/paper_files/paper/2024/file/5e5853f35164e434015716a8c2a66543-Paper-Conference.pdf), *Ye Tian, Baolin Peng, Linfeng Song, Lifeng Jin, Dian Yu, Haitao Mi, Dong Yu* | [[github]](https://github.com/YeTianJHU/AlphaLLM) [[HOME PAGE]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5e5853f35164e434015716a8c2a66543-Abstract-Conference.html)
 
 
 
